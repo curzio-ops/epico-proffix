@@ -31,11 +31,13 @@ Prova un record per percorso e stampa stato HTTP e nomi dei campi, senza dati.
 
 ## Uso da un altro progetto
 
-Si installa da un tag, mai da un branch:
+Si installa da una versione fissa (tag `vX.Y.Z` o commit), mai da un branch:
 
 ```toml
-dependencies = ["epico-proffix @ git+https://github.com/curzio-ops/epico-proffix@v0.1.0"]
+dependencies = ["epico-proffix @ git+https://github.com/curzio-ops/epico-proffix@<tag-o-commit>"]
 ```
+
+Versione 0.1.0 = commit `8167df7`.
 
 ## Sviluppo
 

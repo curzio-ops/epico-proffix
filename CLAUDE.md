@@ -8,5 +8,5 @@ Regole:
 - Nessuna credenziale né nome di server nel codice: tutto da variabili d'ambiente.
 - Un client per database Proffix (una società = un database).
 - Test obbligatori per ogni cambiamento (`uv run pytest`), `ruff check` e `ruff format` puliti.
-- Versioni con tag `vX.Y.Z`: i progetti che lo usano puntano a un tag, mai a un branch.
+- Versioni fisse: i progetti che lo usano puntano a un tag `vX.Y.Z` o a un commit, mai a un branch.
 - Lingua dei commenti e dei messaggi: italiano.
